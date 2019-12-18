@@ -10,8 +10,8 @@
     "sass": "^1.23.7"
   },
   "scripts": {
-    "maksymlapute": "parcel src/index.html",
-    "lachatteatamere": "parcel build src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
