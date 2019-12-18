@@ -9,6 +9,20 @@
   font-size: $font-basic-size;
 
   &__description {
+    display: inherit;
     justify-content: center;
+    flex-direction: column;
+
+    h1{
+      font-size: 3em;
+    }
+    button{
+      border: none;
+      background: $basic-background;
+      color: $font-clear;
+      width: 290px;
+      height: 60px;
+      font-size: 2rem;
+    }
   }
 }
