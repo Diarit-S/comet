@@ -8,8 +8,8 @@ headerTemplate.innerHTML = `
     @import '/scss/style.scss';
   </style>
 
-  <header style="background-color:red; width:100px">
-    <img src="${image}" alt="logo du site">
+  <header style="background-color:#25262E; width:100vw">
+    <img src="${logo}" alt="logo du site">
   </header>
 `;
 
@@ -27,7 +27,7 @@ class HeaderCard extends HTMLElement {
     }, 500);
   }
 
-  render()
+  render(){}
 }
 
 window.customElements.define('the-header', HeaderCard);
