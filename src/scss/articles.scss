@@ -1,0 +1,26 @@
+body {
+  font-family: Avenir;
+}
+
+.body__article {
+  margin: 0 250px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9a12b3;
+}
+
+.section__articles2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__articles2--firstPar {
+  width: 400px;
+}
