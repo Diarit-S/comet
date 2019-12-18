@@ -1,0 +1,4 @@
+/node-modules
+/.cache
+/dist
+DS_Store
