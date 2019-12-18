@@ -1,7 +1,6 @@
-import logo from '../assets/logo.png'
+import logo from "../assets/logo.png";
 
-let headerTemplate = document.createElement('template');
-
+let headerTemplate = document.createElement("template");
 
 headerTemplate.innerHTML = `
   <style>
@@ -17,17 +16,17 @@ class HeaderCard extends HTMLElement {
   constructor() {
     super();
 
-    let shadowRoot = this.attachShadow({ mode: 'open' });
+    let shadowRoot = this.attachShadow({ mode: "open" });
     shadowRoot.appendChild(headerTemplate.content.cloneNode(true));
 
-    this.img = shadowRoot.querySelector('img');
-    
-    setTimeout(() => { 
+    this.img = shadowRoot.querySelector("img");
+
+    setTimeout(() => {
       this.render();
     }, 500);
   }
 
-  render()
+  render() {}
 }
 
-window.customElements.define('the-header', HeaderCard);
+window.customElements.define("the-header", HeaderCard);
