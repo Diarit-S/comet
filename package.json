@@ -1,0 +1,26 @@
+{
+  "name": "comet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.23.7"
+  },
+  "scripts": {
+    "maksymlapute": "parcel src/index.html",
+    "lachatteatamere": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diarit-S/comet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diarit-S/comet/issues"
+  },
+  "homepage": "https://github.com/Diarit-S/comet#readme"
+}
