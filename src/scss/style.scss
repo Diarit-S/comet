@@ -1,15 +1,56 @@
 @import "reset.css";
 @import "variables.scss";
+@import "font.scss";
 
+header {
+  height: 50vh;
+}
 .content {
   height: 100vh;
   display: flex;
+  justify-content: center;
   background-color: $home-background;
   color: $font-clear;
   font-size: $font-basic-size;
 
   &__description {
+    display: inherit;
     justify-content: center;
+    flex-direction: column;
+
+    h1 {
+      font-size: 3em;
+      width: 615px;
+      font-family: AvenirNext-Bold;
+      letter-spacing: 3px;
+      line-height: 65px;
+    }
+    p {
+      width: 640px;
+      padding-top: 40px;
+      font-family: AvenirNext-Regular;
+      padding: 40px 0 90px 0;
+      line-height: 25px;
+    }
+    a {
+      cursor: default;
+      width: 290px
+    }
+
+    button {
+      border: none;
+      color: $font-clear;
+      background-color: $basic-background;
+      width: inherit;
+      height: 60px;
+      font-size: 2rem;
+      transition: .5s;
+
+      &:hover {
+        color: $font-dark;
+        background-color: white;
+      }
+    }
   }
 }
 

@@ -8,8 +8,11 @@ headerTemplate.innerHTML = `
     @import '/scss/style.scss';
   </style>
 
-  <header style="background-color:#25262E; width:100vw">
-    <img src="${logo}" alt="logo du site">
+  <header style="background-color:#25262E; width:100vw;
+          height:50px; display:flex; align-items: center; 
+          padding-left: 30px; position: fixed;"
+  >
+    <img src="${logo}" alt="logo du site" style="height:38px">
   </header>
 `;
 
