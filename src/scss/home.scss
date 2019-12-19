@@ -1,0 +1,66 @@
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: $home-background;
+  color: $font-clear;
+  font-size: $font-basic-size;
+  display: flex;
+  flex-direction: row;
+
+
+  &__description {
+    display: inherit;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    padding-left: 50px;
+
+    h1 {
+      font-size: 3em;
+      font-family: AvenirNext-Bold;
+      letter-spacing: 3px;
+      line-height: 65px;
+    }
+    p {
+      padding-top: 40px;
+      font-family: AvenirNext-Regular;
+      padding: 40px 0 90px 0;
+      line-height: 25px;
+    }
+    
+    a {
+      width: 290px;
+      button {
+        border: none;
+        color: $font-clear;
+        background-color: $basic-background;
+        font-family: AvenirNext-bold;
+        height: 60px;
+        font-size: 2rem;
+        transition: .5s;
+        width: inherit;
+        cursor: pointer;
+  
+        &:hover {
+          color: $font-dark;
+          background-color: white;
+        }
+      }
+    }
+  }
+  &__img {
+    overflow: hidden;
+    width: 50vw;
+  }
+}
+
+@media (max-width: 950px){
+  .content {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
