@@ -49,15 +49,18 @@
       }
     }
   }
-
   &__img {
     overflow: hidden;
     width: 50vw;
-
   }
 }
 
-// h1 {
-//   color: red;
-//   font-weight: bold;
-// }
+@media (max-width: 950px){
+  .content {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
