@@ -1,4 +1,4 @@
-# robots.txt for https://www.comet-hetic.com/
+# robots.txt for https://www.comet-hetic.netlify.com/
 
 User-agent: *
 Allow: /
