@@ -1,4 +1,15 @@
-h1 {
-  color: red;
-  font-weight: bold;
+@import "reset.css";
+@import "variables.scss";
+@import "./articles.scss";
+
+.content {
+  height: 100vh;
+  display: flex;
+  background-color: $home-background;
+  color: $font-clear;
+  font-size: $font-basic-size;
+
+  &__description {
+    justify-content: center;
+  }
 }
